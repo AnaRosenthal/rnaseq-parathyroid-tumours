@@ -1,0 +1,11 @@
+name: rnaseq-parathyroid-tumours
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastqc=0.12.1
+  - multiqc=1.33
+  - cutadapt=5.2
+  - hisat2=2.2.2
+  - samtools=1.23.1
+  - htseq=2.0.9
