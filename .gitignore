@@ -8,3 +8,8 @@ Paper.pdf
 envs/
 generateInput/
 scripts/
+Apartado1/results/trimmed/
+*.sam
+*.bam
+*.bai
+*.ht2
