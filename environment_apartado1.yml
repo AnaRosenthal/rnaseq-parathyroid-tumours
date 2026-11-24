@@ -1,4 +1,4 @@
-name: rnaseq-parathyroid-tumours
+name: rnaseq-apartado1
 channels:
   - conda-forge
   - bioconda

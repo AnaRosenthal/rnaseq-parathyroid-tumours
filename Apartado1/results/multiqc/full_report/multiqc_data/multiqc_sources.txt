@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+HTSeq Count	all_sections	SRR479052	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479052.counts.txt
+HTSeq Count	all_sections	SRR479054	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479054.counts.txt
+HISAT2	all_sections	SRR479052	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/hisat2/SRR479052.summary
+HISAT2	all_sections	SRR479054	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/hisat2/SRR479054.summary
+FastQC	all_sections	SRR479052.chr21_1	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/raw/SRR479052.chr21_1_fastqc.zip
+FastQC	all_sections	SRR479052.chr21_2	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/raw/SRR479052.chr21_2_fastqc.zip
+FastQC	all_sections	SRR479052_1	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/trimmed/SRR479052_1.trimmed_fastqc.zip
+FastQC	all_sections	SRR479052_2	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/trimmed/SRR479052_2.trimmed_fastqc.zip
+FastQC	all_sections	SRR479054.chr21_1	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/raw/SRR479054.chr21_1_fastqc.zip
+FastQC	all_sections	SRR479054.chr21_2	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/raw/SRR479054.chr21_2_fastqc.zip
+FastQC	all_sections	SRR479054_1	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/trimmed/SRR479054_1.trimmed_fastqc.zip
+FastQC	all_sections	SRR479054_2	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/fastqc/trimmed/SRR479054_2.trimmed_fastqc.zip

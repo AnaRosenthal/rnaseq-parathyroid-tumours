@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+HTSeq Count	all_sections	SRR479052	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479052.counts.txt
+HTSeq Count	all_sections	SRR479054	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479054.counts.txt

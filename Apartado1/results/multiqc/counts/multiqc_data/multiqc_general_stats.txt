@@ -1,0 +1,3 @@
+Sample	htseq_count-percent_assigned	htseq_count-assigned
+SRR479052	48.63029873656866	0.008237
+SRR479054	47.89616718208228	0.005111

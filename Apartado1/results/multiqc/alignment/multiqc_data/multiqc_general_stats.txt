@@ -1,0 +1,3 @@
+Sample	hisat2-overall_alignment_rate
+SRR479052	91.3
+SRR479054	90.83

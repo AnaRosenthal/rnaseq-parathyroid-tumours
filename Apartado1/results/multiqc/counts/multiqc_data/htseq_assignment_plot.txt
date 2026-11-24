@@ -1,0 +1,3 @@
+Sample	Assigned	Ambiguous	Alignment Not Unique	No Feature	Too Low aQual	Not Aligned
+SRR479052	8237.0	460.0	0.0	2139.0	6030.0	72.0
+SRR479054	5111.0	252.0	0.0	1447.0	3814.0	47.0

@@ -1,0 +1,1084 @@
+{
+    "report_multiqc_command": "/home/vant/miniforge3/envs/RNAseq_trim/bin/multiqc Apartado1/results/htseq -o Apartado1/results/multiqc/counts",
+    "report_data_sources": {
+        "HTSeq Count": {
+            "all_sections": {
+                "SRR479052": "/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479052.counts.txt",
+                "SRR479054": "/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq/SRR479054.counts.txt"
+            }
+        }
+    },
+    "report_general_stats_data": {
+        "htseq": {
+            "SRR479052": {
+                "no_feature": 2139,
+                "ambiguous": 460,
+                "too_low_aQual": 6030,
+                "not_aligned": 72,
+                "alignment_not_unique": 0,
+                "assigned": 8237,
+                "total_count": 16938,
+                "percent_assigned": 48.63029873656866
+            },
+            "SRR479054": {
+                "no_feature": 1447,
+                "ambiguous": 252,
+                "too_low_aQual": 3814,
+                "not_aligned": 47,
+                "alignment_not_unique": 0,
+                "assigned": 5111,
+                "total_count": 10671,
+                "percent_assigned": 47.89616718208228
+            }
+        }
+    },
+    "report_general_stats_headers": {
+        "htseq": {
+            "percent_assigned": {
+                "title": "% Assigned",
+                "description": "% Assigned reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "RdYlGn",
+                "namespace": "HTSeq Count",
+                "clean_rid": "htseq_count-percent_assigned",
+                "rid": "htseq_count-percent_assigned",
+                "placement": 1000
+            },
+            "assigned": {
+                "title": "M Assigned",
+                "description": "Assigned Reads (millions)",
+                "min": 0,
+                "scale": "PuBu",
+                "modify": null,
+                "shared_key": "read_count",
+                "namespace": "HTSeq Count",
+                "clean_rid": "htseq_count-assigned",
+                "rid": "htseq_count-assigned",
+                "suffix": " M",
+                "placement": 1000
+            }
+        }
+    },
+    "report_creation_date": "2026-03-25, 01:58 CET",
+    "report_plot_data": {
+        "htseq_assignment_plot": {
+            "id": "htseq_assignment_plot",
+            "anchor": "htseq_assignment_plot",
+            "plot_type": "bar plot",
+            "layout": {
+                "autosize": true,
+                "height": 300,
+                "hoverlabel": {
+                    "namelength": -1,
+                    "bgcolor": "white",
+                    "font": {
+                        "color": "rgba(60,60,60,1)"
+                    }
+                },
+                "margin": {
+                    "b": 65,
+                    "l": 60,
+                    "pad": 5,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": true,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "color": "rgba(60,60,60,1)",
+                            "family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+                        },
+                        "legend": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(80, 80, 80, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(100, 100, 100, 0.5)"
+                        },
+                        "paper_bgcolor": "rgba(0,0,0,0)",
+                        "plot_bgcolor": "rgba(0,0,0,0)",
+                        "title": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)",
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "HTSeq: Count Assignments",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": true
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "showgrid": false,
+                    "categoryorder": "trace",
+                    "type": "category"
+                },
+                "barmode": "relative",
+                "bargroupgap": 0,
+                "bargap": 0.2,
+                "legend": {
+                    "tracegroupgap": 0,
+                    "traceorder": "normal"
+                },
+                "hovermode": "y unified"
+            },
+            "datasets": [
+                {
+                    "plot_id": "htseq_assignment_plot",
+                    "label": "1",
+                    "uid": "htseq_assignment_plot",
+                    "dconfig": {
+                        "title": "HTSeq: Count Assignments",
+                        "subtitle": "2 bars"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "HTSeq: Count Assignments<br><sup>2 bars</sup>"
+                        },
+                        "xaxis": {
+                            "title": {
+                                "text": "# Reads"
+                            },
+                            "hoverformat": ",.2f",
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": 0,
+                                "maxallowed": 16938.0
+                            }
+                        },
+                        "yaxis": {
+                            "title": null,
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "showlegend": true
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b></b>%{meta}: <b>%{x}</b><extra></extra>",
+                        "orientation": "h",
+                        "marker": {
+                            "line": {
+                                "width": 0
+                            }
+                        },
+                        "textposition": "inside",
+                        "insidetextanchor": "start"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 2,
+                    "cats": [
+                        {
+                            "name": "Assigned",
+                            "color": "rgba(124,181,236,1)",
+                            "data": [
+                                5111.0,
+                                8237.0
+                            ],
+                            "data_pct": [
+                                47.89616718208228,
+                                48.63029873656866
+                            ]
+                        },
+                        {
+                            "name": "Ambiguous",
+                            "color": "rgba(67,67,72,1)",
+                            "data": [
+                                252.0,
+                                460.0
+                            ],
+                            "data_pct": [
+                                2.3615406241214507,
+                                2.715786987837997
+                            ]
+                        },
+                        {
+                            "name": "Alignment Not Unique",
+                            "color": "rgba(144,237,125,1)",
+                            "data": [
+                                0.0,
+                                0.0
+                            ],
+                            "data_pct": [
+                                0.0,
+                                0.0
+                            ]
+                        },
+                        {
+                            "name": "No Feature",
+                            "color": "rgba(247,163,92,1)",
+                            "data": [
+                                1447.0,
+                                2139.0
+                            ],
+                            "data_pct": [
+                                13.560116202792615,
+                                12.628409493446688
+                            ]
+                        },
+                        {
+                            "name": "Too Low aQual",
+                            "color": "rgba(128,133,233,1)",
+                            "data": [
+                                3814.0,
+                                6030.0
+                            ],
+                            "data_pct": [
+                                35.7417299222191,
+                                35.60042507970245
+                            ]
+                        },
+                        {
+                            "name": "Not Aligned",
+                            "color": "rgba(241,92,128,1)",
+                            "data": [
+                                47.0,
+                                72.0
+                            ],
+                            "data_pct": [
+                                0.4404460687845562,
+                                0.4250797024442083
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "SRR479054",
+                        "SRR479052"
+                    ],
+                    "cats_clustered": null,
+                    "samples_clustered": null,
+                    "group_labels": null,
+                    "offset_groups": null
+                }
+            ],
+            "pconfig": {
+                "id": "htseq_assignment_plot",
+                "title": "HTSeq: Count Assignments",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Number of Reads",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": "# Reads",
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "flat_if_very_large": true,
+                "stacking": "relative",
+                "hide_empty": null,
+                "hide_zero_cats": false,
+                "sort_samples": true,
+                "cluster_samples": false,
+                "cluster_method": "complete",
+                "cluster_switch_clustered_active": true,
+                "use_legend": null,
+                "suffix": null,
+                "lab_format": null,
+                "sample_groups": null
+            },
+            "add_log_tab": false,
+            "add_pct_tab": true,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [
+                "xaxis"
+            ],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "sort_switch_sorted_active": false,
+            "cluster_switch_clustered_active": true
+        },
+        "general_stats_table": {
+            "id": "general_stats_table",
+            "anchor": "general_stats_table",
+            "plot_type": "violin plot",
+            "layout": {
+                "autosize": true,
+                "height": 500,
+                "hoverlabel": {
+                    "namelength": -1
+                },
+                "margin": {
+                    "b": 40,
+                    "l": 60,
+                    "pad": 0,
+                    "r": 15,
+                    "t": 50
+                },
+                "showlegend": false,
+                "template": {
+                    "layout": {
+                        "colorway": [
+                            "#7cb5ec",
+                            "#434348",
+                            "#90ed7d",
+                            "#f7a35c",
+                            "#8085e9",
+                            "#f15c80",
+                            "#e4d354",
+                            "#2b908f",
+                            "#f45b5b",
+                            "#91e8e1"
+                        ],
+                        "font": {
+                            "color": "rgba(60,60,60,1)",
+                            "family": "system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
+                        },
+                        "legend": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        },
+                        "modebar": {
+                            "activecolor": "rgba(80, 80, 80, 1)",
+                            "bgcolor": "rgba(0, 0, 0, 0)",
+                            "color": "rgba(100, 100, 100, 0.5)"
+                        },
+                        "paper_bgcolor": "rgba(0,0,0,0)",
+                        "plot_bgcolor": "rgba(0,0,0,0)",
+                        "title": {
+                            "font": {
+                                "color": "rgba(60,60,60,1)",
+                                "size": 20
+                            }
+                        },
+                        "xaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        },
+                        "yaxis": {
+                            "color": "rgba(100,100,100,1)",
+                            "gridcolor": "rgba(128,128,128,0.15)",
+                            "spikecolor": "rgba(60,60,60,1)",
+                            "spikethickness": -3,
+                            "tickfont": {
+                                "color": "rgba(80,80,80,1)",
+                                "size": 10
+                            },
+                            "zerolinecolor": "rgba(128,128,128,0.2)"
+                        }
+                    }
+                },
+                "title": {
+                    "text": "General Statistics",
+                    "x": 0.5,
+                    "xanchor": "center"
+                },
+                "xaxis": {
+                    "automargin": false,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "yaxis": {
+                    "automargin": true,
+                    "tickfont": {
+                        "size": 9,
+                        "color": "rgba(0,0,0,0.5)"
+                    },
+                    "gridcolor": "rgba(0,0,0,0.1)",
+                    "zerolinecolor": "rgba(0,0,0,0.1)"
+                },
+                "violingap": 0,
+                "grid": {
+                    "columns": 1,
+                    "roworder": "top to bottom",
+                    "ygap": 0.4
+                }
+            },
+            "datasets": [
+                {
+                    "plot_id": "general_stats_table",
+                    "label": "1",
+                    "uid": "general_stats_table",
+                    "dconfig": {
+                        "ylab": "",
+                        "title": "General Statistics",
+                        "subtitle": "2 samples"
+                    },
+                    "layout": {
+                        "title": {
+                            "text": "General Statistics<br><sup>2 samples</sup>"
+                        },
+                        "xaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": null
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        },
+                        "yaxis": {
+                            "hoverformat": null,
+                            "ticksuffix": "",
+                            "title": {
+                                "text": ""
+                            },
+                            "rangemode": "normal",
+                            "autorangeoptions": {
+                                "clipmin": null,
+                                "clipmax": null,
+                                "minallowed": null,
+                                "maxallowed": null
+                            }
+                        }
+                    },
+                    "trace_params": {
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "orientation": "h",
+                        "box": {
+                            "visible": true
+                        },
+                        "meanline": {
+                            "visible": true
+                        },
+                        "fillcolor": "#999999",
+                        "line": {
+                            "width": 0
+                        },
+                        "opacity": 1,
+                        "points": false,
+                        "hoveron": "points"
+                    },
+                    "pct_range": {
+                        "xaxis": {
+                            "min": 0,
+                            "max": 100
+                        },
+                        "yaxis": {
+                            "min": 0,
+                            "max": 100
+                        }
+                    },
+                    "n_series": 2,
+                    "metrics": [
+                        "htseq_count-percent_assigned",
+                        "htseq_count-assigned"
+                    ],
+                    "header_by_metric": {
+                        "htseq_count-percent_assigned": {
+                            "title": "% Assigned",
+                            "description": "% Assigned reads",
+                            "suffix": "%",
+                            "dmin": 0.0,
+                            "dmax": 100.0,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": "%",
+                                "tickvals": null,
+                                "range": [
+                                    -0.5,
+                                    100.5025
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "HTSeq Count",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        },
+                        "htseq_count-assigned": {
+                            "title": "M Assigned",
+                            "description": "Assigned Reads (millions)",
+                            "suffix": " M",
+                            "dmin": 0.0,
+                            "dmax": 0.008237,
+                            "hidden": false,
+                            "xaxis": {
+                                "ticksuffix": " M",
+                                "tickvals": null,
+                                "range": [
+                                    -4.1185e-05,
+                                    0.008278390925
+                                ]
+                            },
+                            "show_only_outliers": false,
+                            "show_points": true,
+                            "namespace": "HTSeq Count",
+                            "color": null,
+                            "hoverformat": ".2f"
+                        }
+                    },
+                    "violin_value_by_sample_by_metric": {
+                        "htseq_count-percent_assigned": {
+                            "SRR479052": 48.63029873656866,
+                            "SRR479054": 47.89616718208228
+                        },
+                        "htseq_count-assigned": {
+                            "SRR479052": 0.008237,
+                            "SRR479054": 0.005111
+                        }
+                    },
+                    "scatter_value_by_sample_by_metric": {
+                        "htseq_count-percent_assigned": {},
+                        "htseq_count-assigned": {}
+                    },
+                    "all_samples": [
+                        "SRR479052",
+                        "SRR479054"
+                    ],
+                    "scatter_trace_params": {
+                        "mode": "markers",
+                        "marker": {
+                            "size": 4,
+                            "color": "#0b79e6",
+                            "opacity": 1
+                        },
+                        "showlegend": false,
+                        "hovertemplate": "<b>%{text}</b>: %{x}<extra></extra>",
+                        "hoverlabel": {
+                            "bgcolor": "white",
+                            "font": {
+                                "color": "rgba(60,60,60,1)"
+                            }
+                        }
+                    },
+                    "dt": {
+                        "id": "general_stats_table",
+                        "anchor": "general_stats_table_table",
+                        "pconfig": {
+                            "id": "general_stats_table",
+                            "title": "General Statistics",
+                            "subtitle": null,
+                            "anchor": null,
+                            "table_title": null,
+                            "height": null,
+                            "width": null,
+                            "square": false,
+                            "logswitch": false,
+                            "logswitch_active": false,
+                            "logswitch_label": "Log10",
+                            "cpswitch": true,
+                            "cpswitch_c_active": true,
+                            "cpswitch_counts_label": "Counts",
+                            "cpswitch_percent_label": "Percentages",
+                            "xLog": null,
+                            "yLog": null,
+                            "xlog": false,
+                            "ylog": false,
+                            "data_labels": [],
+                            "xTitle": null,
+                            "yTitle": null,
+                            "xlab": null,
+                            "ylab": null,
+                            "xsuffix": null,
+                            "ysuffix": null,
+                            "tt_suffix": null,
+                            "xLabFormat": null,
+                            "yLabFormat": null,
+                            "xLabelFormat": null,
+                            "yLabelFormat": null,
+                            "xlab_format": null,
+                            "ylab_format": null,
+                            "tt_label": null,
+                            "xDecimals": null,
+                            "yDecimals": null,
+                            "decimalPlaces": null,
+                            "x_decimals": null,
+                            "y_decimals": null,
+                            "tt_decimals": null,
+                            "xmin": null,
+                            "xmax": null,
+                            "ymin": null,
+                            "ymax": null,
+                            "xFloor": null,
+                            "xCeiling": null,
+                            "yFloor": null,
+                            "yCeiling": null,
+                            "x_clipmin": null,
+                            "x_clipmax": null,
+                            "y_clipmin": null,
+                            "y_clipmax": null,
+                            "save_data_file": true,
+                            "showlegend": null,
+                            "xMinRange": null,
+                            "yMinRange": null,
+                            "x_minrange": null,
+                            "y_minrange": null,
+                            "xPlotBands": null,
+                            "yPlotBands": null,
+                            "xPlotLines": null,
+                            "yPlotLines": null,
+                            "x_bands": null,
+                            "y_bands": null,
+                            "x_lines": null,
+                            "y_lines": null,
+                            "series_label": "samples",
+                            "flat_if_very_large": false,
+                            "namespace": "",
+                            "save_file": true,
+                            "raw_data_fn": "multiqc_general_stats",
+                            "defaultsort": null,
+                            "sortRows": true,
+                            "sort_rows": true,
+                            "only_defined_headers": true,
+                            "col1_header": "Sample Name",
+                            "no_beeswarm": false,
+                            "no_violin": false,
+                            "scale": "GnBu",
+                            "min": null,
+                            "parse_numeric": true,
+                            "rows_are_samples": true
+                        },
+                        "section_by_id": {
+                            "htseq": {
+                                "column_by_key": {
+                                    "percent_assigned": {
+                                        "rid": "htseq_count-percent_assigned",
+                                        "clean_rid": "htseq_count-percent_assigned",
+                                        "title": "% Assigned",
+                                        "description": "% Assigned reads",
+                                        "scale": "RdYlGn",
+                                        "hidden": false,
+                                        "placement": 1000.0,
+                                        "namespace": "HTSeq Count",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": 100.0,
+                                        "dmax": 100.0,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": null,
+                                        "tt_decimals": null,
+                                        "suffix": "%",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    },
+                                    "assigned": {
+                                        "rid": "htseq_count-assigned",
+                                        "clean_rid": "htseq_count-assigned",
+                                        "title": "M Assigned",
+                                        "description": "Assigned Reads (millions)",
+                                        "scale": "PuBu",
+                                        "hidden": false,
+                                        "placement": 1000.0,
+                                        "namespace": "HTSeq Count",
+                                        "colour": null,
+                                        "color": null,
+                                        "max": null,
+                                        "dmax": 0.008237,
+                                        "min": 0.0,
+                                        "dmin": 0.0,
+                                        "ceiling": null,
+                                        "floor": null,
+                                        "minRange": null,
+                                        "minrange": null,
+                                        "shared_key": "read_count",
+                                        "tt_decimals": null,
+                                        "suffix": " M",
+                                        "cond_formatting_colours": [
+                                            {
+                                                "blue": "#337ab7"
+                                            },
+                                            {
+                                                "lbue": "#5bc0de"
+                                            },
+                                            {
+                                                "pass": "#5cb85c"
+                                            },
+                                            {
+                                                "warn": "#f0ad4e"
+                                            },
+                                            {
+                                                "fail": "#d9534f"
+                                            },
+                                            {
+                                                "male": "#5bc0de"
+                                            },
+                                            {
+                                                "female": "#d9534f"
+                                            }
+                                        ],
+                                        "cond_formatting_rules": {},
+                                        "bgcols": {},
+                                        "bars_zero_centrepoint": false,
+                                        "modify": null,
+                                        "format": null
+                                    }
+                                },
+                                "rows_by_sgroup": {
+                                    "SRR479052": [
+                                        {
+                                            "sample": "SRR479052",
+                                            "data": {
+                                                "assigned": {
+                                                    "raw": 8237,
+                                                    "mod": 0.008237,
+                                                    "fmt": "0.0"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 48.63029873656866,
+                                                    "mod": 48.63029873656866,
+                                                    "fmt": "48.6"
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "SRR479054": [
+                                        {
+                                            "sample": "SRR479054",
+                                            "data": {
+                                                "assigned": {
+                                                    "raw": 5111,
+                                                    "mod": 0.005111,
+                                                    "fmt": "0.0"
+                                                },
+                                                "percent_assigned": {
+                                                    "raw": 47.89616718208228,
+                                                    "mod": 47.89616718208228,
+                                                    "fmt": "47.9"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "headers_in_order": {
+                            "1000.0": [
+                                [
+                                    0,
+                                    "percent_assigned"
+                                ],
+                                [
+                                    0,
+                                    "assigned"
+                                ]
+                            ]
+                        }
+                    },
+                    "show_table_by_default": true,
+                    "is_downsampled": false
+                }
+            ],
+            "pconfig": {
+                "id": "general_stats_table",
+                "title": "General Statistics",
+                "subtitle": null,
+                "anchor": null,
+                "table_title": null,
+                "height": null,
+                "width": null,
+                "square": false,
+                "logswitch": false,
+                "logswitch_active": false,
+                "logswitch_label": "Log10",
+                "cpswitch": true,
+                "cpswitch_c_active": true,
+                "cpswitch_counts_label": "Counts",
+                "cpswitch_percent_label": "Percentages",
+                "xLog": null,
+                "yLog": null,
+                "xlog": false,
+                "ylog": false,
+                "data_labels": [],
+                "xTitle": null,
+                "yTitle": null,
+                "xlab": null,
+                "ylab": null,
+                "xsuffix": null,
+                "ysuffix": null,
+                "tt_suffix": null,
+                "xLabFormat": null,
+                "yLabFormat": null,
+                "xLabelFormat": null,
+                "yLabelFormat": null,
+                "xlab_format": null,
+                "ylab_format": null,
+                "tt_label": null,
+                "xDecimals": null,
+                "yDecimals": null,
+                "decimalPlaces": null,
+                "x_decimals": null,
+                "y_decimals": null,
+                "tt_decimals": null,
+                "xmin": null,
+                "xmax": null,
+                "ymin": null,
+                "ymax": null,
+                "xFloor": null,
+                "xCeiling": null,
+                "yFloor": null,
+                "yCeiling": null,
+                "x_clipmin": null,
+                "x_clipmax": null,
+                "y_clipmin": null,
+                "y_clipmax": null,
+                "save_data_file": true,
+                "showlegend": null,
+                "xMinRange": null,
+                "yMinRange": null,
+                "x_minrange": null,
+                "y_minrange": null,
+                "xPlotBands": null,
+                "yPlotBands": null,
+                "xPlotLines": null,
+                "yPlotLines": null,
+                "x_bands": null,
+                "y_bands": null,
+                "x_lines": null,
+                "y_lines": null,
+                "series_label": "samples",
+                "flat_if_very_large": false,
+                "namespace": "",
+                "save_file": true,
+                "raw_data_fn": "multiqc_general_stats",
+                "defaultsort": null,
+                "sortRows": true,
+                "sort_rows": true,
+                "only_defined_headers": true,
+                "col1_header": "Sample Name",
+                "no_beeswarm": false,
+                "no_violin": false,
+                "scale": "GnBu",
+                "min": null,
+                "parse_numeric": true,
+                "rows_are_samples": true
+            },
+            "add_log_tab": false,
+            "add_pct_tab": false,
+            "l_active": false,
+            "p_active": false,
+            "pct_axis_update": {
+                "ticksuffix": "%",
+                "hoverformat": ".1f"
+            },
+            "axis_controlled_by_switches": [],
+            "square": false,
+            "flat": false,
+            "defer_render": false,
+            "section_anchor": null,
+            "module_anchor": null,
+            "violin_height": 70,
+            "extra_height": 63,
+            "no_violin": false,
+            "show_table": true,
+            "show_table_by_default": true,
+            "n_samples": 2,
+            "table_anchor": "general_stats_table_table"
+        }
+    },
+    "config_analysis_dir": [
+        "Apartado1/results/htseq"
+    ],
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/home/vant/miniforge3/envs/RNAseq_trim/lib/python3.9/site-packages/multiqc",
+    "config_short_version": "1.33",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.33",
+    "config_output_dir": "/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/multiqc/counts",
+    "config_sample_names_rename": [],
+    "config_sample_names_rename_buttons": [],
+    "config_analysis_dir_abs": [
+        "/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/transcriptomic-final-exercise/Apartado1/results/htseq"
+    ],
+    "report_saved_raw_data": {
+        "multiqc_htseq": {
+            "SRR479052": {
+                "no_feature": 2139,
+                "ambiguous": 460,
+                "too_low_aQual": 6030,
+                "not_aligned": 72,
+                "alignment_not_unique": 0,
+                "assigned": 8237,
+                "total_count": 16938,
+                "percent_assigned": 48.63029873656866
+            },
+            "SRR479054": {
+                "no_feature": 1447,
+                "ambiguous": 252,
+                "too_low_aQual": 3814,
+                "not_aligned": 47,
+                "alignment_not_unique": 0,
+                "assigned": 5111,
+                "total_count": 10671,
+                "percent_assigned": 47.89616718208228
+            }
+        },
+        "multiqc_general_stats": {
+            "SRR479052": {
+                "htseq_count-percent_assigned": 48.63029873656866,
+                "htseq_count-assigned": 0.008237
+            },
+            "SRR479054": {
+                "htseq_count-percent_assigned": 47.89616718208228,
+                "htseq_count-assigned": 0.005111
+            }
+        }
+    }
+}

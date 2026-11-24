@@ -1,0 +1,23 @@
+producer_class	xtools.gsea.GseaPreranked
+producer_timestamp	1774703449557
+param	rpt_label	DPN_sinP4_control_3
+param	rnd_seed	123
+param	set_min	15
+param	zip_report	false
+param	create_svgs	false
+param	scoring_scheme	weighted
+param	rnk	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/Apartado2/input/DPN_24h_sinP4_control_3.rnk
+param	norm	meandiv
+param	out	/home/vant/gsea_home/output/mar28
+param	mode	Abs_max_of_probes
+param	include_only_symbols	true
+param	help	false
+param	set_max	500
+param	gmx	/home/vant/Escritorio/Master/3-Omicas/5-Transcriptomica/1-RNAseq_DEG/Trabajo_Transcriptomica/Apartado2/input/DPN_response.gmt
+param	make_sets	true
+param	plot_top_x	20
+param	gui	false
+param	nperm	1000
+param	collapse	No_Collapse
+
+file	/home/vant/gsea_home/output/mar28/DPN_sinP4_control_3.GseaPreranked.1774703449557/index.html

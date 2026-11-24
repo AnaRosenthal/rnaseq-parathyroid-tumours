@@ -1,0 +1,3 @@
+Sample	PE mapped uniquely	PE mapped discordantly uniquely	PE one mate mapped uniquely	PE neither mate aligned
+SRR479052	11390.0	275.0	1267.0	1232.0
+SRR479054	7179.0	182.0	848.0	829.0
